@@ -8,41 +8,41 @@
 
 import Foundation
 
-let BaseUrl = "http://117.34.91.251:8015/imp"    //西镇
-//let BaseUrl = "http://117.34.91.90:8917/imp/"  //太风
+let BaseUrl = ""    //西镇
+//let BaseUrl = ""  //太风
 
 
 
 //图片url
-let uAPILoadImage               = "/imageManage/show.do?fileName="
+let uAPILoadImage               = ""
 
 //登录
-let loginUrl                    = "/android/loginForTF.do"
+let loginUrl                    = ""
 //公告列表
-let uAPI_Notice_PublicList      = "/announcement/getAnnouncementList.do"
+let uAPI_Notice_PublicList      = ""
 //新闻
-let uAPI_News_NewsPage          = "/news/showTitleByPage.do"
+let uAPI_News_NewsPage          = ""
 //扫码后获取个人信息
-let uAPI_User_UserInfo          = "/entryRegister/selectById.do"
+let uAPI_User_UserInfo          = ""
 //质量 检查列表
-let uAPI_Quality_CheckList      = "/qualityCheck/showQualityCheckList.do"
+let uAPI_Quality_CheckList      = ""
 //质量 整改列表
-let uAPI_Quality_UpdateList     = "/qualityRectifiOrder/showRectifiOrderList.do"
+let uAPI_Quality_UpdateList     = ""
 //安全 整改列表
-let uAPI_Safe_UpdateList        = "/rectifiOrder/showRectifiOrderList.do"
+let uAPI_Safe_UpdateList        = ""
 //随手拍 - 列表
-let uAPI_TakePic_showList       = "/snapshot/showAll.do"
+let uAPI_TakePic_showList       = ""
 //主页 消息个数
-let uAPI_PCMO_Home_GetSendNum   = "/warningRead/getSendNum.do"
+let uAPI_PCMO_Home_GetSendNum   = ""
 //主页 拌合站报警列表
-let uAPI_Refer_MS_Station_List  = "/warningRead/getSendMsg.do"
+let uAPI_Refer_MS_Station_List  = ""
 //获取下载二维码
-let uAPI_User_Help_Donwload     = "/appUpdate/byQrcodeLoadApp.do"
+let uAPI_User_Help_Donwload     = ""
 // 获取注意事项
-let uAPI_User_Help_Items        = "/operationManual/appShowNoticeMatters.do"
+let uAPI_User_Help_Items        = ""
 //查询组织结构列表
-let uAPI_OrganizationList       = "/org/selectOrgByOrgIdForAndroid.do"
+let uAPI_OrganizationList       = ""
 //查询 拌合站查询 - 拌合机列表
-let uAPI_SiteMachineList        = "/mixMachineQuery/selectMixMachineModelsApp.do"
+let uAPI_SiteMachineList        = ""
 //查询 施工部位
-let uAPI_Search_WorkPart        = "/mixMachineQuery/selectTeamInforModelsApp.do"
+let uAPI_Search_WorkPart        = ""
